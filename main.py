@@ -34,6 +34,7 @@ def main():
          if board[rowIndex][columnIndex] == 0:
             board[rowIndex][columnIndex] = "*"
 
+   # if it is a 4x4 grid, then it carries out these functions
    if numOfColumns == numOfRows == 4:
       print("\nInitial Board")
       displayBoard1(board)
@@ -47,6 +48,7 @@ def main():
          print("\nThe Solution of the Board")
          displayBoard1(board)
    
+   # if it is a 9x9 grid, then it carries out these functions
    elif numOfColumns == numOfRows == 9:
       print("\nInitial Board")
       displayBoard2(board)
